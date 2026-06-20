@@ -1,0 +1,50 @@
+06.20 1:54 PM
+body {
+  text-align: center;
+  margin-top: 110px;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ffe6f0, #fff0f5);
+  overflow: hidden;
+}
+
+/* Main heading */
+h1 {
+  font-size: 40px;
+  color: #c9184a;
+}
+
+/*  last line (branding highlight) */
+.subtext {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #5f0f40;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* Buttons */
+button {
+  padding: 14px 34px;
+  font-size: 20px;
+  margin: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+/*  YES (aesthetic mint green branding) */
+#yesBtn {
+  background: linear-gradient(135deg, #00c896, #5efc8d);
+  color: white;
+  box-shadow: 0 6px 15px rgba(0, 200, 150, 0.3);
+}
+
+/* ❤️ NO (soft pink/red aesthetic) */
+#noBtn {
+  background: linear-gradient(135deg, #ff4d6d, #ff8fa3);
+  color: white;
+  box-shadow: 0 6px 15px rgba(255, 77, 109, 0.3);
+  position: absolute;
+}
+
